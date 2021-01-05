@@ -14,7 +14,10 @@ const prod2 = {
     preco: 79.90,
 
     obj: {
-        blabla:1
+        blabla:1,
+        obj:{
+            blabla:2
+        }
     }
 
 }
