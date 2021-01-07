@@ -30,4 +30,4 @@ for( let a in nums){
     }
 }
 
-console.log('Fim !!')
+console.log('Fim !!]')
