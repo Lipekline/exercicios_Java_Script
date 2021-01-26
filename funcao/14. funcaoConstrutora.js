@@ -26,4 +26,12 @@ uno.acelerar()
 
 console.log(uno.getvelocidadeAtual())
 
-const Ferrari = new Carro
+const Ferrari = new Carro(350, 20)
+Ferrari.acelerar()
+Ferrari.acelerar()
+Ferrari.acelerar()
+
+console.log(Ferrari.getvelocidadeAtual())
+
+console.log(typeof Carro)
+console.log(typeof Ferrari)
