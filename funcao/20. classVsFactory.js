@@ -12,12 +12,14 @@ class Pessoa {
 const p1 = new Pessoa('Joao')
 p1.falar()
 
-const Pessoa = nome => {
+
+
+const criarPessoa = function (nome){
     return {
         falar: () => console.log('meu nome é: ', nome)
     }
 }
 
-const p2 = Pessoa('joao')
+const p2 = criarPessoa('joao')
 
-p2.falar
+p2.falar()
